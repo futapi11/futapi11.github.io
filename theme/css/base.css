@@ -1,0 +1,42 @@
+@import url("https://mshaugh.github.io/nerdfont-webfonts/build/firacode-nerd-font.css");
+
+:root {
+  --text: #F3E0EC;
+  --link: #ADFDFF;
+  --bg:   #241E4E;
+}
+
+* {
+  font-family: "FiraCode Nerd Font", monospace;
+
+  font-size: 20px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--link); 
+}
+
+.header {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  justify-content: center;
+
+  padding: 30px 0;
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+
+  border-bottom: 2px solid var(--text);
+}
+
+.content {
+  margin: 100px 0;
+}
+
+.footer {
+  font-size: 10px;
+}
