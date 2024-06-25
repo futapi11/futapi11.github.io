@@ -17,6 +17,7 @@
 a {
   color: var(--link); 
   font-weight: bold;
+  text-decoration: none;
 }
 
 h1 {
