@@ -6,10 +6,10 @@
   --bg:   #241E4E;
 }
 
-* {
+html {
   font-family: "FiraCode Nerd Font", monospace;
-
   font-size: 20px;
+
   background: var(--bg);
   color: var(--text);
 }
@@ -21,19 +21,19 @@ a {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 h3 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .header {
@@ -56,6 +56,6 @@ h4 {
 }
 
 .footer {
-  font-size: 0.5em;
+  font-size: 0.5rem;
   text-align: center;
 }
