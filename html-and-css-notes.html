@@ -5,19 +5,19 @@
   <meta charset="UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-    <link rel="stylesheet" href="/theme/css/article.css">
+    <link rel="stylesheet" href="/theme/css/base.css">
 
   <title>homepage</title>
 
 </head>
 
   <body>
-    <header>
+    <div id='header'>
       <a href="/">home</a>
 	    <a href="/pages/links.html" >links</a>
 	    <a href="/pages/projects.html" >projects</a>
       <a href="/archives.html">blog</a>
-    </header>
+    </div>
     <!-- <button class="toggle_header" onclick="toggle_header()"></button> -->
 
     <div id="content">
@@ -25,13 +25,13 @@
   <article>
     <h1>html and css notes</h1>
     <p><em>This is notes drawn from my own experience. Use it at your own risk</em></p>
-<h4>make header stick to top</h4>
+<h4 id="make-header-stick-to-top">make header stick to top</h4>
 <div class="highlight"><pre><span></span><code><span class="nt">header</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="k">margin-bottom</span><span class="p">:</span><span class="w"> </span><span class="kc">auto</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div>
 
-<h4>Make footer stick to bottom</h4>
+<h4 id="make-footer-stick-to-bottom">Make footer stick to bottom</h4>
 <div class="highlight"><pre><span></span><code><span class="nt">footer</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="k">margin-bottom</span><span class="p">:</span><span class="w"> </span><span class="kc">auto</span><span class="p">;</span>
 <span class="p">}</span>
@@ -40,10 +40,10 @@
 
     </div>
 
-    <footer>
+    <div id='footer'>
       <p>Made with  &nbsp;by hv</p>
       <p>Wanna get in touch? <a href='mailto:hvstuff4@proton.me'>shoot me an email</a></p>
-    </footer>
+    </div>
 
   </body>
 </html>

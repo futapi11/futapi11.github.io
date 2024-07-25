@@ -5,19 +5,19 @@
   <meta charset="UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-    <link rel="stylesheet" href="/theme/css/article.css">
+    <link rel="stylesheet" href="/theme/css/base.css">
 
   <title>homepage</title>
 
 </head>
 
   <body>
-    <header>
+    <div id='header'>
       <a href="/">home</a>
 	    <a href="/pages/links.html" >links</a>
 	    <a href="/pages/projects.html" >projects</a>
       <a href="/archives.html">blog</a>
-    </header>
+    </div>
     <!-- <button class="toggle_header" onclick="toggle_header()"></button> -->
 
     <div id="content">
@@ -25,17 +25,17 @@
   <article>
     <h1>bash notes</h1>
     <p><em>This is notes drawn from my own experience. Use it at your own risk</em></p>
-<h4>line-by-line operation</h4>
+<h4 id="line-by-line-operation">line-by-line operation</h4>
 <div class="highlight"><pre><span></span><code>$output | xargs -L1 echo
 </code></pre></div>
   </article>
 
     </div>
 
-    <footer>
+    <div id='footer'>
       <p>Made with  &nbsp;by hv</p>
       <p>Wanna get in touch? <a href='mailto:hvstuff4@proton.me'>shoot me an email</a></p>
-    </footer>
+    </div>
 
   </body>
 </html>
